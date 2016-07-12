@@ -1,0 +1,36 @@
+.contenido {
+	display: flex;
+	justify-content: center;
+}
+
+header {
+	background: #E3ABF3;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+.imagen {
+	border-radius: 50%;
+	width: 250px;
+	height: auto;
+	border: .5em solid peru;
+}
+
+/*.contenido {
+	text-align: center;
+}
+*/
+.ventana {
+	width: 70%;
+	border: .2em solid #A3D8EE;
+	border-radius: 2%;
+	text-align: center;
+	background: #CBE2EB
+}
