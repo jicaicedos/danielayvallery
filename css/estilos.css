@@ -18,15 +18,27 @@ footer {
 
 .imagen {
 	border-radius: 50%;
-	width: 250px;
+	width: 200px;
 	height: auto;
 	border: .5em solid peru;
 }
 
-.ventana {
-	border: .2em solid #A3D8EE;
-	border-radius: 2%;
+.ventana:nth-child(odd) {
+	/*border: .2em solid #A3D8EE;*/
+	/*border-radius: 2%;*/
 	text-align: center;
-	background: #CBE2EB;
-	margin-bottom: 1em;
+	background: #E1F2F8;
+	/*margin-bottom: 1em;*/
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.ventana:nth-child(even) {
+	/*border: .2em solid #A3D8EE;*/
+	/*border-radius: 2%;*/
+	text-align: center;
+	background: #E6D1E3;
+	/*margin-bottom: 1em;*/
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
