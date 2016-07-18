@@ -51,7 +51,7 @@ footer {
 
 .imagen {
 	border-radius: 50%;
-	width: 200px;
+	width: 400px;
 	height: auto;
 	border: .2em solid peru;
 }
@@ -88,3 +88,37 @@ footer {
 .ventana_fecha_especial {
 	border: 2px solid #8FDD93;
 }
+
+ /*Mobile (landscape)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.imagen {
+		width: 200px;
+		height: auto;		
+	}		
+	.menu ul li {
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+	.ventana:nth-child(odd) {
+		background: #E1F2F8;
+		margin-bottom: .4em;
+	}
+
+	.ventana:nth-child(even) {
+		background: #E6D1E3;
+		margin-bottom: .4em;
+	}	
+	.fechas_especiales {
+		font-weight: normal;
+	}
+}
+/*
+Tableta
+@media only screen and (min-width: 768px) {
+	.imagen {
+		width: 300px;
+		height: auto;		
+	}	
+}
+
+*/
