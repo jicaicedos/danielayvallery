@@ -1,5 +1,5 @@
 header {
-	background: #E3ABF3;
+	background: #8F4DA2;
 	margin-right: 10%;
 	margin-left: 10%;
 	border-radius: 10px;
@@ -20,6 +20,26 @@ footer {
 	text-align: center;
 }
 
+.menu {
+	text-align: center;
+}
+.menu ul {
+	display: -webkit-inline-box;
+}
+.menu ul li {
+	list-style-type: none;
+	background: #67B36C;
+	border-radius: 5px;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 10px 20px;
+}
+
+.menu ul li a {
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+}
 .contenido {
 	display: flex;
 	flex-direction: column-reverse;
